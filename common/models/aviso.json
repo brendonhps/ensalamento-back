@@ -1,0 +1,27 @@
+{
+  "name": "Aviso",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "mensagem": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "ehValido": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

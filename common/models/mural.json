@@ -1,0 +1,53 @@
+	{
+  "name": "Mural",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "mensagem": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "ehValido": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "responsavelId": {
+      "required" :true
+    },
+    "orgaoCod": {
+      "required" : true
+    }
+  },
+  "validations": [],
+  "relations": {
+  	"responsavel":{
+   		"type":"belongsTo",
+   		"polymorphic":true
+	},
+	"orgao":{
+   		"type":"belongsTo",
+   		"polymorphic":true
+	},
+    "sala": {
+      "type": "belongsTo",
+      "model": "Sala",
+      "foreignKey": "salaCod"
+    },
+    "turma": {
+      "type": "belongsTo",
+      "model": "Turma",
+      "foreignKey": "turmaId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
+
