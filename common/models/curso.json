@@ -23,11 +23,14 @@
   "validations": [],
   "relations": {
     
-    "polymorphic": {
-    "foreignKey": "orgaoCod",
-    "discriminator": "orgaoType"
-    }
-   ,
+    "murals":{
+      "type":"hasMany",
+      "model":"Mural",
+      "polymorphic":{
+        "foreignKey": "orgaoCod",
+        "discriminator": "orgaoType"
+      }
+   },
     "bloco": {
       "type": "belongsTo",
       "model": "Bloco",

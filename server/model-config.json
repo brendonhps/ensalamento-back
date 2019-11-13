@@ -117,7 +117,7 @@
     "public": true
   },
   "Mural": {
-    "dataSource": "db",
+    "dataSource": "ensalamento",
     "public": true
   }
 }

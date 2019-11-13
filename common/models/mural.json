@@ -20,7 +20,7 @@
       "default": true
     },
     "responsavelId": {
-      "required" :true
+      "required" : true
     },
     "orgaoCod": {
       "required" : true

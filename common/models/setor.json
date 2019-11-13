@@ -30,10 +30,14 @@
   "validations": [],
   "relations": {
   
-    "polymorphic": {
-    "foreignKey": "orgaoCod",
-    "discriminator": "orgaoType"
-    } ,
+    "murals":{
+      "type":"hasMany",
+      "model":"Mural",
+      "polymorphic":{
+        "foreignKey": "orgaoCod",
+        "discriminator": "orgaoType"
+      }
+   },
     "departamentos": {
       "type": "hasMany",
       "model": "Departamento",

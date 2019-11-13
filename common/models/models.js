@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 /**
 Models are used in a lot of script, so we created this file to unify.
 **/
@@ -23,16 +23,16 @@ var models = [
     'Setor',
     'Departamento',
     'Curso',
-    "CursoDisciplina",
-    "Professor",
-    "Horario",
-    "Semestre",
-    "Ensalamento",
-    "EventoHorario",
-    "FileUpload",
-    "FileUploadError",
-    "FileUploadFileUploadError",
-    "TurmaHorario",
+    'CursoDisciplina',
+    'Professor',
+    'Horario',
+    'Semestre',
+    'Ensalamento',
+    'EventoHorario',
+    'FileUpload',
+    'FileUploadError',
+    'FileUploadFileUploadError',
+    'TurmaHorario',
 
 ];
 
