@@ -108,10 +108,6 @@
     "dataSource": "ensalamento",
     "public": true
   },
-  "container": {
-    "dataSource": "container",
-    "public": true
-  },
   "Semestre": {
     "dataSource": "ensalamento",
     "public": true
